@@ -16,7 +16,7 @@ export default function Collections() {
             <p class="collection-group1-bottom-text1">The Futr Abstr</p>
             <p class="collection-group1-bottom-text2">Highest Bid</p>
             <img
-              src="assets/avatar1.png"
+              src="assets/avatar-medium.png"
               class="collection-group1-bottom-avatar"
             />
             <img
