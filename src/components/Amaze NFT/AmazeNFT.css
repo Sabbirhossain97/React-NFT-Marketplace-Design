@@ -6,7 +6,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
+  width: 1444px;
+  margin: 5rem auto;
 }
 .amaze-nft-group1 {
   display: flex;

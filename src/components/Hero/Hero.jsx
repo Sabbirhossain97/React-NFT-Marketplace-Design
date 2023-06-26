@@ -20,20 +20,20 @@ export default function Hero() {
             <button class="hero-btn-text">Explore Now</button>
           </div>
           <div className="hero-right-section-bottom">
-            <div class="hero-right-section-bottom-container">
-              <span class="hero-right-section-bottom-header">98K+</span>
-              <span class="hero-right-section-bottom-subheader">Artwork</span>
-            </div>
-            <div class="hero-right-section-bottom-container">
-              {" "}
-              <span class="hero-right-section-bottom-header">12k+</span>
-              <span class="hero-right-section-bottom-subheader">Auction</span>
-            </div>
-            <div class="hero-right-section-bottom-container">
-              {" "}
-              <span class="hero-right-section-bottom-header">15k+</span>
-              <span class="hero-right-section-bottom-subheader">Artist</span>
-            </div>
+            {[
+              { count: "98k+", category: "Artwork" },
+              { count: "12k+", category: "Auction" },
+              { count: "15k+", category: "Artist" },
+            ].map((item, key) => (
+              <div key={key} class="hero-right-section-bottom-container">
+                <span class="hero-right-section-bottom-header">
+                  {item.count}
+                </span>
+                <span class="hero-right-section-bottom-subheader">
+                  {item.category}
+                </span>
+              </div>
+            ))}
           </div>
         </div>
         {/* hero-section-left */}

@@ -36,7 +36,7 @@
   font-family: "DM Sans", sans-serif;
   line-height: 160%;
   display: flex;
-  width: 612px;
+  width: 471px;
   flex-direction: column;
   flex-shrink: 0;
 }
@@ -46,6 +46,7 @@
   align-items: center;
   gap: 10px;
   z-index: 5;
+  margin-top: 1rem;
 }
 .hero-btn-text {
   border-radius: 60px;
@@ -105,7 +106,7 @@
     position: absolute;
     left: 40px;
     z-index: 4;
-    bottom: 100px;
+    bottom: 120px;
 }
 .hero-image-2 {
   position: absolute;
