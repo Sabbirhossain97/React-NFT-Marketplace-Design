@@ -1,0 +1,158 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+  height: 353px;
+  flex-shrink: 0;
+  margin: 80px auto;
+}
+.footer-right-section {
+  position: relative;
+  width: 333px;
+  height: 190px;
+  flex-shrink: 0;
+}
+.footer-marketplace-section {
+  position: relative;
+  width: 113px;
+  height: 243px;
+  flex-shrink: 0;
+}
+.footer-account-section {
+  width: 106px;
+  height: 159px;
+  flex-shrink: 0;
+}
+.footer-subscribe-section {
+  width: 364px;
+  height: 197.793px;
+  flex-shrink: 0;
+}
+.footer-right-section-header {
+  position: absolute;
+  top: -1rem;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footer-right-section-subheader {
+  position: absolute;
+  top: 25%;
+  display: flex;
+  width: 333px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #565656;
+  font-size: 14px;
+  font-family: "Averta Demo PE Cutted Demo";
+  line-height: 160%;
+}
+
+.footer-right-section-icon1 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  bottom: 0;
+}
+
+.footer-right-section-icon2 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  bottom: 0;
+  left: 50px;
+}
+
+.footer-right-section-icon3 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  bottom: 0;
+  left: 100px;
+}
+.footer-marketplace-title {
+  color: #000;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.footer-marketplace-items {
+  position: absolute;
+  left: 0;
+  color: #3d3d3d;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 200%;
+}
+.footer-account-title {
+  color: #000;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.footer-account-items {
+  color: #3d3d3d;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 200%;
+}
+.footer-subscribe-header {
+  color: #000;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.footer-subscribe-subheader {
+  display: flex;
+  width: 362px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #363639;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  line-height: 160%;
+}
+.footer-subscribe-wrapper{
+  position: relative;
+   width: 364px;
+  height: 60.793px;
+  
+}
+.footer-subscribe-input {
+  margin-top: 24px;
+  width: 364px;
+  height: 60.793px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 2px solid #efefef;
+  background: #fff;
+}
+.footer-subscribe-input::placeholder {
+  padding-left: 25px;
+  font-family: "DM Sans", sans-serif;
+}
+.footer-subscribe-btn {
+  position: absolute;
+  top: 55%;
+  right: 1%;
+  border-radius: 45.595px;
+  background: #2639ed;
+  display: inline-flex;
+  padding: 15.198px 30.397px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.599px;
+  color: #fff;
+  font-size: 12.159px;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 0.79px;
+}

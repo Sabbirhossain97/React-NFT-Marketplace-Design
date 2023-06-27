@@ -23,3 +23,8 @@ body {
   src: local("IntegralCF"),
     url("./fonts/IntegralCFRegular.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Averta Demo PE Cutted Demo";
+  src: local("AvertaDemoPECuttedDemo"),
+    url("./fonts/AvertaDemoPECuttedDemoRegular.ttf") format("truetype");
+}
