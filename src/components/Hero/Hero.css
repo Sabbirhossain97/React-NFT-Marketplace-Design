@@ -11,12 +11,11 @@
   position: relative;
   z-index: 1;
 }
-.dot{
+.dot {
   position: absolute;
   bottom: 2.5rem;
   /* z-index: 0; */
   left: 4rem;
-
 }
 
 .hero-heading {
@@ -48,6 +47,7 @@
   z-index: 5;
   margin-top: 1rem;
 }
+
 .hero-btn-text {
   border-radius: 60px;
   background: #3d00b7;
@@ -57,6 +57,10 @@
   font-family: "Averta Demo PE Cutted Demo", sans-serif;
   letter-spacing: 1.3px;
   font-weight: 600;
+}
+.hero-btn-text:hover {
+  background: #5605f7;
+  cursor: pointer;
 }
 .hero-right-section-bottom {
   display: grid;
@@ -102,11 +106,11 @@
   flex-shrink: 0;
   border-radius: 24px;
 }
-.hero-image-1-logo{
-    position: absolute;
-    left: 40px;
-    z-index: 4;
-    bottom: 120px;
+.hero-image-1-logo {
+  position: absolute;
+  left: 40px;
+  z-index: 4;
+  bottom: 120px;
 }
 .hero-image-2 {
   position: absolute;

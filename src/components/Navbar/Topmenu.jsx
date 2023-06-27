@@ -12,13 +12,13 @@ export default function Topmenu() {
           </p>
         </div>
         <div class="topmenu-cta">
-          <p>Marketplace</p>
-          <p>Resource</p>
-          <p>About</p>
+          <p ><a class="topmenu-cta-items" href="#">Marketplace</a></p>
+          <p ><a class="topmenu-cta-items" href="#">Resource</a></p>
+          <p ><a class="topmenu-cta-items" href="#">About</a></p>
         </div>
         <div class="searchbar-wrapper">
-          <input class="searchbar" placeholder="Search" />
-          <img class="search-icon" src="/assets/search.png" />
+          <input class="searchbar" placeholder="Search" width="100px" />
+          <img class="search-icon" src="assets/topmenu/search.png" alt="search" />
         </div>
         <div class="topmenu-btn">
           <button class="top-btn-1">Upload</button>

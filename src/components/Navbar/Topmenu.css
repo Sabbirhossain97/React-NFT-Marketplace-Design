@@ -17,7 +17,6 @@
   height: 78px;
   width: 1200px;
   margin: auto;
-  /* padding: 10px 0px; */
 }
 .topmenu-cta {
   color: #000;
@@ -34,6 +33,14 @@
   flex-shrink: 0;
   margin-top: 5px;
 }
+.topmenu-cta-items{
+  color: #000;
+  text-decoration: none;
+}
+.topmenu-cta-items:hover{
+  cursor: pointer;
+  color: #3d00b7;
+} 
 .searchbar-wrapper {
   position: relative;
   width: 300px;
@@ -54,8 +61,8 @@
   height: 45px;
   margin-left: 28px;
 }
-.searchbar::placeholder {
-  padding: 20px;
+input.searchbar {
+  text-indent: 30px;
   font-family: "DM Sans", sans-serif;
 }
 .topmenu-btn {
@@ -96,4 +103,12 @@
   border: 2px solid #3d00b7;
   background: #fff;
 }
-
+.top-btn-1:hover {
+  cursor: pointer;
+  background: #5605f7;
+}
+.top-btn-2:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #5605f7;
+}

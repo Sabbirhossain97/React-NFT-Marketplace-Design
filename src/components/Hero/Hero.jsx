@@ -41,29 +41,29 @@ export default function Hero() {
           <div class="hero-image-1">
             <div>
               <p class="hero-image-1-header">Abstr Gradient NFT</p>
-              <img src="assets/avatar1.png" class="hero-image-1-avatar" />
+              <img src="assets/Hero/avatar1.png" class="hero-image-1-avatar" alt="error" />
               <p class="hero-image-1-subheader">Arkhan17</p>
             </div>
             <div class="hero-image-1-bottom">
               <p class="hero-image-1-bottom-text1">Current Bid</p>
               <p class="hero-image-1-bottom-text2">Ends in</p>
-              <img src="assets/ethereum.png" class="hero-image-1-avatar2" />
+              <img src="assets/Hero/ethereum.png" class="hero-image-1-avatar2" alt="error" />
               <p class="hero-image-1-bottom-text3">
                 12h&nbsp;&nbsp;43m&nbsp;&nbsp;42s
               </p>
               <p class="hero-image-1-bottom-text4"> 0.25 ETH </p>
             </div>
-            <img src="assets/hero-image-1.png" />
+            <img src="assets/Hero/hero-image-1.png"  alt="error"/>
           </div>
           <div class="hero-image-2">
-            <img src="assets/hero-image-2.png" />
+            <img src="assets/Hero/hero-image-2.png"  alt="error"/>
           </div>
           <div class="hero-image-3">
-            <img src="assets/hero-image-3.png" />
+            <img src="assets/Hero/hero-image-3.png" alt="error" />
           </div>
-          <img src="assets/ethereum-circle.png" class="hero-image-1-logo" />
+          <img src="assets/Hero/ethereum-circle.png" class="hero-image-1-logo"  />
         </div>
-        <img src="assets/Dot.png" class="dot" />
+        <img src="assets/Hero/Dot.png" class="dot" alt="error" />
       </div>
     </div>
   );

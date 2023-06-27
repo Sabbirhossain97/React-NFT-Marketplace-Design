@@ -92,3 +92,7 @@
   font-family: "Averta Demo PE Cutted Demo", sans-serif;
   letter-spacing: 1.3px;
 }
+.signup-nft-right-section-btn:hover{
+  cursor: pointer;
+  background: #5605f7;
+}

@@ -168,6 +168,10 @@
   bottom: 0.5rem;
   left: 11rem;
 }
+.collection-group2-btn1:hover{
+  cursor: pointer;
+  background: #5605f7;
+}
 .collection-group2-btn2 {
   position: absolute;
   display: inline-flex;
@@ -185,6 +189,11 @@
   border: 2px solid #3d00b7;
   background: #fff;
 }
+.collection-group2-btn2:hover{
+  cursor: pointer;
+  color: #fff;
+  background: #5605f7;
+}
 .collection-group2-btn3 {
   position: absolute;
   display: inline-flex;
@@ -201,6 +210,11 @@
   font-weight: bold;
   border: 2px solid #3d00b7;
   background: #fff;
+}
+.collection-group2-btn3:hover{
+  cursor: pointer;
+  color: #fff;
+  background: #5605f7;
 }
 .collection-group3-header {
   position: absolute;

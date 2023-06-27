@@ -57,6 +57,9 @@
   bottom: 0;
 }
 
+.footer-right-section-icon1:hover {
+  cursor: pointer;
+}
 .footer-right-section-icon2 {
   position: absolute;
   width: 36px;
@@ -65,7 +68,9 @@
   bottom: 0;
   left: 50px;
 }
-
+.footer-right-section-icon2:hover {
+  cursor: pointer;
+}
 .footer-right-section-icon3 {
   position: absolute;
   width: 36px;
@@ -73,6 +78,9 @@
   flex-shrink: 0;
   bottom: 0;
   left: 100px;
+}
+.footer-right-section-icon3:hover {
+  cursor: pointer;
 }
 .footer-marketplace-title {
   color: #000;
@@ -89,7 +97,18 @@
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   line-height: 200%;
+  display: flex;
+  flex-direction: column;
 }
+.footer-marketplace-listitems{
+  text-decoration: none;
+   color: #3d3d3d;
+}
+.footer-marketplace-listitems:hover {
+  cursor: pointer;
+  color: #3d00b7;
+}
+
 .footer-account-title {
   color: #000;
   font-size: 18px;
@@ -103,6 +122,15 @@
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   line-height: 200%;
+}
+.footer-account-listitems{
+  text-decoration: none;
+   color: #3d3d3d;
+}
+.footer-account-listitems:hover {
+  cursor: pointer;
+  color: #3d00b7;
+  
 }
 .footer-subscribe-header {
   color: #000;
@@ -121,11 +149,10 @@
   font-family: "DM Sans", sans-serif;
   line-height: 160%;
 }
-.footer-subscribe-wrapper{
+.footer-subscribe-wrapper {
   position: relative;
-   width: 364px;
+  width: 364px;
   height: 60.793px;
-  
 }
 .footer-subscribe-input {
   margin-top: 24px;
@@ -136,10 +163,11 @@
   border: 2px solid #efefef;
   background: #fff;
 }
-.footer-subscribe-input::placeholder {
-  padding-left: 25px;
+input.footer-subscribe-input {
+  text-indent: 25px;
   font-family: "DM Sans", sans-serif;
 }
+
 .footer-subscribe-btn {
   position: absolute;
   top: 55%;
@@ -155,4 +183,8 @@
   font-size: 12.159px;
   font-family: "DM Sans", sans-serif;
   letter-spacing: 0.79px;
+}
+.footer-subscribe-btn:hover {
+  cursor: pointer;
+  background: #061de6;
 }

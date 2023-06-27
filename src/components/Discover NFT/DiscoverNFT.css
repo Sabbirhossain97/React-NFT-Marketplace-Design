@@ -44,7 +44,7 @@
 }
 .discover-nft-menu-items {
   display: flex;
-  padding: 10px 20px;
+  padding: 9px 20px;
   flex-direction: column;
   justify-content: center;
   font-family: "DM Sans", sans-serif;
@@ -53,6 +53,11 @@
   font-weight: 500;
   border-radius: 100px;
   background: rgba(220, 220, 220, 0.2);
+}
+.discover-nft-menu-items:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #5605f7;
 }
 .discover-nft-filter {
   position: absolute;
@@ -66,6 +71,11 @@
   border-radius: 100px;
   background: rgba(220, 220, 220, 0.2);
 }
+.discover-nft-filter:hover {
+  cursor: pointer;
+  background: rgba(155, 153, 153, 0.2);
+  transition: opacity 100ms ease-in-out;
+}
 .filter-icon {
   width: 24px;
   height: 24px;
@@ -77,6 +87,7 @@
   font-weight: 500;
   line-height: 17.452px;
 }
+
 .discover-nft-contents-wrapper {
   position: absolute;
   top: 15%;
@@ -96,6 +107,7 @@
   background: #ffffff;
   border-radius: 13.165px;
 }
+
 .discover-nft-image {
   position: absolute;
   left: 11px;
@@ -210,4 +222,9 @@
   font-weight: 500;
   bottom: 3rem;
   left: 625px;
+}
+.discover-nft-btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #5605f7;
 }

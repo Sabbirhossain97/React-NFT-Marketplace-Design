@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./DiscoverNFT.css";
 import "../../fonts/IntegralCFRegular.ttf";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function DiscoverNFT() {
+   useEffect(() => {
+     AOS.init({ duration: 1000 });
+   }, []);
   return (
     <div>
       <div class="discover-nft-container">
         <div
           class="discover-nft-title"
           style={{ fontFamily: "Integral CF, sans-serif" }}
+          data-aos="fade-right"
         >
           DISCOVER MORE NFTS
         </div>
@@ -23,7 +29,11 @@ export default function DiscoverNFT() {
             <li class="discover-nft-menu-items">Crypto</li>
           </div>
           <div class="discover-nft-filter">
-            <img src="assets/discover-nfts/filter.png" class="filter-icon" />
+            <img
+              src="assets/discover-nfts/filter.png"
+              class="filter-icon"
+              alt="error"
+            />
             <p class="filter">All Filters</p>
           </div>
         </div>
@@ -94,30 +104,36 @@ export default function DiscoverNFT() {
               name: "KingCrypto",
             },
           ].map((item, key) => (
-            <div class="discover-nft-contents-item">
+            <div key={key} class="discover-nft-contents-item">
               <img
                 src={`assets/discover-nfts/discover-nft-image${item.id}.png`}
                 class="discover-nft-image"
+                alt="error"
               />
               <img
                 src="assets/discover-nfts/discover-nft-avatar1.png"
                 class="discover-nft-avatar1"
+                alt="error"
               />
               <img
                 src="assets/discover-nfts/discover-nft-avatar2.png"
                 class="discover-nft-avatar2"
+                alt="error"
               />
               <img
                 src="assets/discover-nfts/discover-nft-avatar3.png"
                 class="discover-nft-avatar3"
+                alt="error"
               />
               <img
                 src="assets/discover-nfts/discover-nft-avatar4.png"
                 class="discover-nft-avatar4"
+                alt="error"
               />
               <img
                 src="assets/discover-nfts/discover-nft-ethereum.png"
                 class="discover-nft-icon"
+                alt="error"
               />
               <p class="discover-nft-text1">{item.name}</p>
               <p class="discover-nft-text2">0.25 ETH</p>
@@ -128,7 +144,9 @@ export default function DiscoverNFT() {
             </div>
           ))}
         </div>
-        <div class="discover-nft-btn">More NFTs</div>
+        <div class="discover-nft-btn" data-aos="fade-up">
+          More NFTs
+        </div>
       </div>
     </div>
   );
