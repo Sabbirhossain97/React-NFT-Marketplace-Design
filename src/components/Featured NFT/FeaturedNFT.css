@@ -76,7 +76,7 @@
 }
 .featured-nft-avatar {
   position: absolute;
-  bottom: 12px;
+  bottom: 8px;
   width: 28px;
   height: 28px;
   flex-shrink: 0;
@@ -84,7 +84,7 @@
 .featured-nft-bottom-name {
   position: absolute;
   left: 38px;
-  bottom: 3px;
+  bottom: 0;
   color: #000;
   font-size: 14px;
   font-family: "DM Sans", sans-serif;
@@ -95,7 +95,7 @@
   display: flex;
   width: 75;
   height: 15px;
-  padding: 10px 15px;
+  padding: 6px 15px;
   justify-content: center;
   align-items: center;
   gap: 4.584px;
@@ -107,5 +107,5 @@
   font-family: "DM Sans", sans-serif;
   font-weight: bold;
   right: 20px;
-  bottom: 0;
+  top: 320px;
 }

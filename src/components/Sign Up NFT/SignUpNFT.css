@@ -1,0 +1,94 @@
+.signup-nft-container {
+  width: 1200px;
+  height: 606px;
+  flex-shrink: 0;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px;
+}
+.signup-nft-left-section {
+  position: relative;
+  width: 55%;
+}
+.signup-nft-right-section {
+  position: relative;
+  width: 45%;
+}
+.signup-nft-image1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.signup-nft-image2 {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
+.signup-nft-image3 {
+  position: absolute;
+  top: 58%;
+  left: 17%;
+}
+.signup-nft-avatar1 {
+  position: absolute;
+  left: 38%;
+  top: 42%;
+}
+.signup-nft-avatar2 {
+  position: absolute;
+  right: 0;
+  top: 56%;
+}
+.signup-nft-avatar3 {
+  position: absolute;
+  left: 40%;
+  bottom: 2%;
+}
+.signup-nft-right-section-header-wrapper {
+  position: absolute;
+  top: 14%;
+  left: 15%;
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.signup-nft-right-section-subheader-wrapper {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  display: flex;
+  width: 517px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.signup-nft-right-section-header {
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+}
+.signup-nft-right-section-subheader {
+  color: #636363;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  line-height: 160%;
+}
+.signup-nft-right-section-btn-wrapper {
+  position: absolute;
+  left: 15%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  top: 68%;
+}
+.signup-nft-right-section-btn {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: #3d00b7;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Averta Demo PE Cutted Demo", sans-serif;
+  letter-spacing: 1.3px;
+}

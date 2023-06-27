@@ -1,0 +1,213 @@
+.discover-nft-container {
+  position: relative;
+  width: 1440px;
+  height: 2100px;
+  flex-shrink: 0;
+  background: rgba(217, 224, 236, 0.2);
+  backdrop-filter: blur(25px);
+}
+.discover-nft-title {
+  position: absolute;
+  color: #000;
+  font-size: 34px;
+  font-weight: 700;
+  top: 5%;
+  margin-left: 120px;
+}
+.discover-nft-categories {
+  width: 1193px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.discover-nft-menu {
+  position: absolute;
+  top: 10%;
+  margin-left: 120px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.discover-nft-menu-items-active {
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 17.452px;
+  border-radius: 100px;
+  background: #3d00b7;
+}
+.discover-nft-menu-items {
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  border-radius: 100px;
+  background: rgba(220, 220, 220, 0.2);
+}
+.discover-nft-filter {
+  position: absolute;
+  top: 10%;
+  right: 126px;
+  display: inline-flex;
+  padding: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: rgba(220, 220, 220, 0.2);
+}
+.filter-icon {
+  width: 24px;
+  height: 24px;
+}
+.filter {
+  color: #371c87;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 17.452px;
+}
+.discover-nft-contents-wrapper {
+  position: absolute;
+  top: 15%;
+  left: 120px;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 40px;
+  column-gap: 40px;
+}
+.discover-nft-contents-item {
+  position: relative;
+  width: 269.876px;
+  height: 373px;
+  flex-shrink: 0;
+  background: #ffffff;
+  border-radius: 13.165px;
+}
+.discover-nft-image {
+  position: absolute;
+  left: 11px;
+  top: 11px;
+  right: 11px;
+}
+.discover-nft-avatar1 {
+  position: absolute;
+  top: 212px;
+  left: 20px;
+  z-index: 1;
+}
+.discover-nft-avatar2 {
+  position: absolute;
+  top: 212px;
+  left: 42px;
+  z-index: 2;
+}
+.discover-nft-avatar3 {
+  position: absolute;
+  top: 212px;
+  left: 62px;
+  z-index: 3;
+}
+.discover-nft-avatar4 {
+  position: absolute;
+  top: 212px;
+  left: 84px;
+  z-index: 4;
+}
+.discover-nft-icon {
+  position: absolute;
+  top: 290px;
+  left: 25px;
+}
+.discover-nft-text1 {
+  position: absolute;
+  color: #000;
+  font-size: 19.747px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 19.146px;
+  top: 240px;
+  left: 25px;
+}
+.discover-nft-text2 {
+  position: absolute;
+  top: 281px;
+  left: 42px;
+  color: #00ac4f;
+  font-size: 10.971px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.discover-nft-text3 {
+  position: absolute;
+  color: #838383;
+  text-align: right;
+  font-size: 13.165px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 19.146px;
+  right: 28px;
+  top: 278px;
+}
+.discover-nft-text4 {
+  position: absolute;
+  display: inline-flex;
+  padding: 4.388px 10.971px;
+  align-items: flex-start;
+  gap: 10.971px;
+  border-radius: 109.706px;
+  background: #f5f5f5;
+  color: #5539a8;
+  text-align: right;
+  font-size: 10.971px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 19.146px;
+  bottom: 0;
+  left: 20px;
+}
+.discover-nft-text5 {
+  position: absolute;
+  color: #4f33a3;
+  font-size: 15.359px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  right: 23px;
+  bottom: 0;
+}
+.discover-nft-divider {
+  position: absolute;
+  width: 223.8px;
+  height: 1.064px;
+  background: #f4f4f4;
+  bottom: 11%;
+  left: 8%;
+}
+.discover-nft-btn {
+  position: absolute;
+  display: inline-flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 2px solid #3d00b7;
+  color: #4f33a3;
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  bottom: 3rem;
+  left: 625px;
+}
