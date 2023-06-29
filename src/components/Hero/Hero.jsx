@@ -17,7 +17,7 @@ export default function Hero() {
               Digital marketplace for crypto collectibles and non-fungible
               tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
             </p>
-            <div>
+            <div class="hero-btn-wrapper">
               <button class="hero-btn-text">Explore Now</button>
             </div>
             <div className="hero-left-section-bottom">
@@ -37,6 +37,7 @@ export default function Hero() {
               ))}
             </div>
           </div>
+          <img src="assets/Hero/Dot.png" class="dot"/>
         </div>
         <div class="hero-child">
           <div class="hero-image-container">

@@ -1,5 +1,5 @@
-.parents {
-  width: 80vw;
+.amazenft-container {
+  width: 75vw;
   height: auto;
   margin: auto;
   display: flex;
@@ -9,7 +9,7 @@
   background: rgba(217, 224, 236, 0.2);
   margin-top: 122px;
 }
-.child {
+.amazenft-child {
   height: 326px;
   flex: 1 1 200px;
   display: flex;
@@ -17,17 +17,13 @@
   align-items: center;
 }
 
-.child:nth-child(2) {
+.amazenft-child:nth-child(2) {
   position: relative;
 }
-.child:last-child {
+.amazenft-child:last-child {
   position: relative;
 }
-@media (max-width: 768px) {
-  .grand_parent {
-    height: auto;
-  }
-}
+
 .amaze-nft-group1-text {
   width: fit-content;
   color: #000;
@@ -52,6 +48,7 @@
   width: 249px;
   font-family: "DM Sans", sans-serif;
   line-height: 160%;
+  font-weight: 500;
 }
 .amaze-nft-icon {
   position: absolute;
@@ -62,7 +59,6 @@
   flex-shrink: 0;
 }
 .amaze-nft-group2-text {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   position: relative;

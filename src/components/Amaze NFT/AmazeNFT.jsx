@@ -5,8 +5,8 @@ import "../../fonts/IntegralCFRegular.ttf";
 export default function AmazeNFT() {
   return (
     <div>
-      <div class="parents">
-        <div class="child">
+      <div class="amazenft-container">
+        <div class="amazenft-child">
           <p
             style={{ fontFamily: "Integral CF, sans-serif", width: "398px" }}
             class="amaze-nft-group1-text"
@@ -14,7 +14,7 @@ export default function AmazeNFT() {
             THE AMAZING NFT ART OF THE WORLD HERE
           </p>
         </div>
-        <div class="child">
+        <div class="amazenft-child">
           <div class="amaze-nft-group2-text">
             <img
               src="assets/amaze-nft/card-tick.png"
@@ -28,7 +28,7 @@ export default function AmazeNFT() {
             </p>
           </div>
         </div>
-        <div class="child">
+        <div class="amazenft-child">
           <div class="amaze-nft-group2-text">
             <p class="amaze-nft-group2-header">Growth Transaction</p>
             <p class="amaze-nft-group2-subheader">

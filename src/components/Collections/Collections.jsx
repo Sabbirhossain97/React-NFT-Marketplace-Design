@@ -6,9 +6,6 @@ export default function Collections() {
   return (
     <div>
       <div className="collection-container">
-        {/*
-        
-         */}
         <div class="collection-child">
           <div class="collection-group1">
             <img

@@ -37,66 +37,35 @@ export default function Footer() {
         <div class="footer-marketplace-section">
           <p class="footer-marketplace-title">Market Place</p>
           <div style={{ listStyle: "none" }} class="footer-marketplace-items">
-            <li>
-              <a class="footer-marketplace-listitems" href="#">
-                All NFTs
-              </a>
-            </li>
-            <li>
-              <a class="footer-marketplace-listitems" href="#">
-                New
-              </a>
-            </li>
-            <li>
-              <a class="footer-marketplace-listitems" href="#">
-                Art
-              </a>
-            </li>
-            <li>
-              <a class="footer-marketplace-listitems" href="#">
-                Sports
-              </a>
-            </li>
-            <li>
-              <a class="footer-marketplace-listitems" href="#">
-                Utility
-              </a>
-            </li>
-            <li>
-              <a class="footer-marketplace-listitems" href="#">
-                Music
-              </a>
-            </li>
-            <li>
-              <a class="footer-marketplace-listitems" href="#">
-                Domain Name
-              </a>
-            </li>
+            {[
+              "All NFTs",
+              "New",
+              "Art",
+              "Sports",
+              "Utility",
+              "Music",
+              "Domain Name",
+            ].map((item, key) => (
+              <li key={key}>
+                <a class="footer-marketplace-listitems" href="#">
+                  {item}
+                </a>
+              </li>
+            ))}
           </div>
         </div>
         <div class="footer-account-section">
           <p class="footer-account-title">My Account</p>
           <div style={{ listStyle: "none" }} class="footer-account-items">
-            <li>
-              <a class="footer-account-listitems" href="#">
-                Profile
-              </a>
-            </li>
-            <li>
-              <a class="footer-account-listitems" href="#">
-                Favorite
-              </a>
-            </li>
-            <li>
-              <a class="footer-account-listitems" href="#">
-                My Collection
-              </a>
-            </li>
-            <li>
-              <a class="footer-account-listitems" href="#">
-                Settings
-              </a>
-            </li>
+            {["Profile", "Favorite", "My Collection", "Settings"].map(
+              (item, key) => (
+                <li key={key}>
+                  <a class="footer-account-listitems" href="#">
+                    {item}
+                  </a>
+                </li>
+              )
+            )}
           </div>
         </div>
         <div class="footer-subscribe-section">

@@ -79,8 +79,6 @@ export default function FeaturedNFT() {
             </div>
           ))}
         </div>
-        {/* <div class="featured-nft-frame-child">2</div>
-          <div class="featured-nft-frame-child">3</div> */}
       </div>
     </div>
   );

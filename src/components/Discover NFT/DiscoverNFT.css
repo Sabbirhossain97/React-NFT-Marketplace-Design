@@ -9,7 +9,6 @@
   margin: 123px auto;
   box-sizing: border-box;
   flex-direction: column;
-  /* overflow: scroll; */
 }
 .discover-nft-title {
   display: inline-flex;
