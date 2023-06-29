@@ -1,19 +1,45 @@
 .collection-container {
-  width: 1200px;
-  height: 540px;
-  flex-shrink: 0;
-  display: grid;
-  grid-template-columns: 37% 33% 30%;
-  margin: 8rem auto;
+  width: 75vw;
+  height: auto;
+  margin: 122px auto 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.2 linear;
 }
-/* .collection-group1 {
-} */
+.collection-child {
+  height: 540px;
+  flex: 1 1 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection-child:nth-child(2) {
+  border-right: 1px solid #ececec;
+}
+
+@media only screen and (max-width: 600px) {
+  .collection-child:nth-child(2) {
+    margin-top: 40px;
+  }
+  .collection-child:last-child {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 1492px) {
+  .collection-child:nth-child(2) {
+    border: none;
+  }
+}
+.img {
+  max-width: 100%;
+  max-height: 100%;
+}
 .collection-group2 {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  border-right: 1px solid #ECECEC;;
-  
 }
 .collection-group3 {
   position: relative;
@@ -83,10 +109,8 @@
   display: flex;
   flex-direction: row;
   padding: 6px 5px;
-  
-
 }
-.collection-group3-elements-top{
+.collection-group3-elements-top {
   position: relative;
   width: 316px;
   height: 66px;
@@ -101,8 +125,7 @@
   flex-shrink: 0;
   padding: 14px 5px;
   margin-left: 2rem;
-  border-bottom: 1px solid #F0F0F0;
-  
+  border-bottom: 1px solid #f0f0f0;
 }
 .collection-group2-text1 {
   position: absolute;
@@ -168,7 +191,7 @@
   bottom: 0.5rem;
   left: 11rem;
 }
-.collection-group2-btn1:hover{
+.collection-group2-btn1:hover {
   cursor: pointer;
   background: #5605f7;
 }
@@ -189,7 +212,7 @@
   border: 2px solid #3d00b7;
   background: #fff;
 }
-.collection-group2-btn2:hover{
+.collection-group2-btn2:hover {
   cursor: pointer;
   color: #fff;
   background: #5605f7;
@@ -211,7 +234,7 @@
   border: 2px solid #3d00b7;
   background: #fff;
 }
-.collection-group2-btn3:hover{
+.collection-group2-btn3:hover {
   cursor: pointer;
   color: #fff;
   background: #5605f7;
@@ -299,7 +322,7 @@
   line-height: 103%;
   letter-spacing: -0.5px;
 }
-.verify{
+.verify {
   position: absolute;
   left: 66px;
   top: 5px;

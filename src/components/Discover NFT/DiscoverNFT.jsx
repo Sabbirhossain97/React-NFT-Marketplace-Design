@@ -5,9 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function DiscoverNFT() {
-   useEffect(() => {
-     AOS.init({ duration: 1000 });
-   }, []);
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div>
       <div class="discover-nft-container">
@@ -20,13 +20,13 @@ export default function DiscoverNFT() {
         </div>
         <div class="discover-nft-categories">
           <div class="discover-nft-menu">
-            <li class="discover-nft-menu-items-active">All Categories</li>
-            <li class="discover-nft-menu-items">Art</li>
-            <li class="discover-nft-menu-items">Celebrities</li>
-            <li class="discover-nft-menu-items">Gaming</li>
-            <li class="discover-nft-menu-items">Sport</li>
-            <li class="discover-nft-menu-items">Music</li>
-            <li class="discover-nft-menu-items">Crypto</li>
+            <div class="discover-nft-menu-items-active">All Categories</div>
+            <div class="discover-nft-menu-items">Art</div>
+            <div class="discover-nft-menu-items">Celebrities</div>
+            <div class="discover-nft-menu-items">Gaming</div>
+            <div class="discover-nft-menu-items">Sport</div>
+            <div class="discover-nft-menu-items">Music</div>
+            <div class="discover-nft-menu-items">Crypto</div>
           </div>
           <div class="discover-nft-filter">
             <img
@@ -144,8 +144,10 @@ export default function DiscoverNFT() {
             </div>
           ))}
         </div>
-        <div class="discover-nft-btn" data-aos="fade-up">
-          More NFTs
+        <div class="btn-wrapper">
+          <div class="btn" data-aos="fade-up">
+            More NFTs
+          </div>
         </div>
       </div>
     </div>

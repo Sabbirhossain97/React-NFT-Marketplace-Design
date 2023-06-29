@@ -5,8 +5,8 @@ import "../../fonts/IntegralCFRegular.ttf";
 export default function AmazeNFT() {
   return (
     <div>
-      <div class="amaze-nft-container">
-        <div class="amaze-nft-group1">
+      <div class="parents">
+        <div class="child">
           <p
             style={{ fontFamily: "Integral CF, sans-serif", width: "398px" }}
             class="amaze-nft-group1-text"
@@ -14,21 +14,33 @@ export default function AmazeNFT() {
             THE AMAZING NFT ART OF THE WORLD HERE
           </p>
         </div>
-        <div class="amaze-nft-group2">
-          <p class="amaze-nft-group2-header">Fast Transaction</p>
-          <p class="amaze-nft-group2-subheader">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            etiam viverra tellus imperdiet.
-          </p>
-          <img src="assets/amaze-nft/card-tick.png" class="amaze-nft-icon" alt="error" />
+        <div class="child">
+          <div class="amaze-nft-group2-text">
+            <img
+              src="assets/amaze-nft/card-tick.png"
+              class="amaze-nft-icon"
+              alt="error"
+            />
+            <p class="amaze-nft-group2-header">Fast Transaction</p>
+            <p class="amaze-nft-group2-subheader">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              etiam viverra tellus imperdiet.
+            </p>
+          </div>
         </div>
-        <div class="amaze-nft-group3">
-          <p class="amaze-nft-group2-header">Growth Transaction</p>
-          <p class="amaze-nft-group2-subheader">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            etiam viverra tellus
-          </p>
-          <img src="assets/amaze-nft/chart-square.png" class="amaze-nft-icon" alt="error" />
+        <div class="child">
+          <div class="amaze-nft-group2-text">
+            <p class="amaze-nft-group2-header">Growth Transaction</p>
+            <p class="amaze-nft-group2-subheader">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              etiam viverra tellus
+            </p>
+            <img
+              src="assets/amaze-nft/chart-square.png"
+              class="amaze-nft-icon"
+              alt="error"
+            />
+          </div>
         </div>
       </div>
     </div>

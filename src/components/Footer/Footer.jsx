@@ -38,25 +38,39 @@ export default function Footer() {
           <p class="footer-marketplace-title">Market Place</p>
           <div style={{ listStyle: "none" }} class="footer-marketplace-items">
             <li>
-              <a class="footer-marketplace-listitems" href="#">All NFTs</a>
+              <a class="footer-marketplace-listitems" href="#">
+                All NFTs
+              </a>
             </li>
             <li>
-              <a class="footer-marketplace-listitems" href="#">New</a>
+              <a class="footer-marketplace-listitems" href="#">
+                New
+              </a>
             </li>
             <li>
-              <a class="footer-marketplace-listitems" href="#">Art</a>
+              <a class="footer-marketplace-listitems" href="#">
+                Art
+              </a>
             </li>
             <li>
-              <a class="footer-marketplace-listitems" href="#">Sports</a>
+              <a class="footer-marketplace-listitems" href="#">
+                Sports
+              </a>
             </li>
             <li>
-              <a class="footer-marketplace-listitems" href="#">Utility</a>
+              <a class="footer-marketplace-listitems" href="#">
+                Utility
+              </a>
             </li>
             <li>
-              <a class="footer-marketplace-listitems" href="#">Music</a>
+              <a class="footer-marketplace-listitems" href="#">
+                Music
+              </a>
             </li>
             <li>
-              <a class="footer-marketplace-listitems" href="#">Domain Name</a>
+              <a class="footer-marketplace-listitems" href="#">
+                Domain Name
+              </a>
             </li>
           </div>
         </div>
@@ -64,16 +78,24 @@ export default function Footer() {
           <p class="footer-account-title">My Account</p>
           <div style={{ listStyle: "none" }} class="footer-account-items">
             <li>
-              <a class="footer-account-listitems" href="#">Profile</a>
+              <a class="footer-account-listitems" href="#">
+                Profile
+              </a>
             </li>
             <li>
-              <a class="footer-account-listitems" href="#">Favorite</a>
+              <a class="footer-account-listitems" href="#">
+                Favorite
+              </a>
             </li>
             <li>
-              <a class="footer-account-listitems" href="#">My Collection</a>
+              <a class="footer-account-listitems" href="#">
+                My Collection
+              </a>
             </li>
             <li>
-              <a class="footer-account-listitems" href="#">Settings</a>
+              <a class="footer-account-listitems" href="#">
+                Settings
+              </a>
             </li>
           </div>
         </div>

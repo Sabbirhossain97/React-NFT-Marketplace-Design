@@ -1,11 +1,11 @@
 .footer-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  width: 1200px;
+  flex-wrap: wrap;
+  width: 65vw;
   height: 353px;
   flex-shrink: 0;
-  margin: 80px auto;
+  margin: auto;
 }
 .footer-right-section {
   position: relative;
@@ -100,9 +100,9 @@
   display: flex;
   flex-direction: column;
 }
-.footer-marketplace-listitems{
+.footer-marketplace-listitems {
   text-decoration: none;
-   color: #3d3d3d;
+  color: #3d3d3d;
 }
 .footer-marketplace-listitems:hover {
   cursor: pointer;
@@ -123,14 +123,13 @@
   font-weight: 500;
   line-height: 200%;
 }
-.footer-account-listitems{
+.footer-account-listitems {
   text-decoration: none;
-   color: #3d3d3d;
+  color: #3d3d3d;
 }
 .footer-account-listitems:hover {
   cursor: pointer;
   color: #3d00b7;
-  
 }
 .footer-subscribe-header {
   color: #000;
@@ -187,4 +186,14 @@ input.footer-subscribe-input {
 .footer-subscribe-btn:hover {
   cursor: pointer;
   background: #061de6;
+}
+@media only screen and (max-width: 600px) {
+  .footer-subscribe-section {
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+  .footer-container {
+    height: 800px;
+    display: flex;
+  }
 }

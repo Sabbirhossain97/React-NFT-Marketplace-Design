@@ -1,5 +1,5 @@
 import "./App.css";
-import Topmenu from "./components/Navbar/Topmenu"
+import Topmenu from "./components/Navbar/Topmenu";
 import Hero from "./components/Hero/Hero";
 import AmazeNFT from "./components/Amaze NFT/AmazeNFT";
 import Collections from "./components/Collections/Collections";
@@ -12,12 +12,12 @@ function App() {
     <div class="container">
       <Topmenu />
       <Hero />
-      <AmazeNFT/>
-      <Collections/>
-      <FeaturedNFT/>
-      <SignUpNFT/>
-      <DiscoverNFT/>
-      <Footer/>
+      <AmazeNFT /> 
+      <Collections />
+      <FeaturedNFT />
+      <SignUpNFT />
+      <DiscoverNFT />
+      <Footer />
     </div>
   );
 }

@@ -14,10 +14,12 @@ body {
   border-width: 0;
 }
 .container {
-  width: 1440px;
   margin: auto;
-  height: 5728px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
+
 @font-face {
   font-family: "Integral CF";
   src: local("IntegralCF"),
