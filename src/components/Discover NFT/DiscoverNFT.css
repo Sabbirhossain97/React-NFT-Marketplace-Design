@@ -104,13 +104,13 @@
   position: relative;
   top: 15%;
   left: 9%;
-  width: 90%;
+  width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   flex: 1;
   row-gap: 40px;
-  column-gap: 75px;
+  column-gap: 40px;
   padding-bottom: 20px;
 }
 @media only screen and (max-width: 600px) {
