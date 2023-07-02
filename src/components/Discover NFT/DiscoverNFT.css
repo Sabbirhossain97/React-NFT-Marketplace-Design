@@ -258,7 +258,6 @@
     margin: 50px auto;
     align-items: center;
     justify-content: center;
-
   }
   .discover-nft-menu-items-active {
     font-size: 10px;
@@ -272,8 +271,14 @@
   .discover-nft-filter {
     bottom: 0;
   }
-  .filter-icon{
+  .filter-icon {
     width: 14px;
     height: 14px;
+  }
+  .btn {
+    width: 80px;
+    font-size: 12px;
+    padding: 10px 15px;
+    border: 1px solid #3d00b7;
   }
 }
