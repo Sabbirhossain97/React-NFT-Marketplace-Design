@@ -20,24 +20,25 @@ export default function Hero() {
             <div class="hero-btn-wrapper">
               <button class="hero-btn-text">Explore Now</button>
             </div>
-            <div className="hero-left-section-bottom">
+            <div class="hero-left-section-bottom ">
               {[
                 { count: "98k+", category: "Artwork" },
                 { count: "12k+", category: "Auction" },
                 { count: "15k+", category: "Artist" },
               ].map((item, key) => (
-                <div key={key} class="hero-left-section-bottom-container">
-                  <span class="hero-left-section-bottom-header">
+                <div key={key} class="hero-left-section-bottom-container ">
+                  <p class="hero-left-section-bottom-header">
                     {item.count}
-                  </span>
-                  <span class="hero-left-section-bottom-subheader">
-                    {item.category}
-                  </span>
+                    <br />
+                    <span class="hero-left-section-bottom-subheader">
+                      {item.category}
+                    </span>
+                  </p>
                 </div>
               ))}
             </div>
           </div>
-          <img src="assets/Hero/Dot.png" class="dot"/>
+          <img src="assets/Hero/Dot.png" class="dot" alt="dot" />
         </div>
         <div class="hero-child">
           <div class="hero-image-container">
@@ -72,6 +73,7 @@ export default function Hero() {
               <img
                 src="assets/Hero/ethereum-circle.png"
                 class="hero-image-1-logo"
+                alt="logo"
               />
             </div>
 

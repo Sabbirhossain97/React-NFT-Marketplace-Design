@@ -3,41 +3,28 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 65vw;
-  height: 353px;
-  flex-shrink: 0;
   margin: auto;
+  padding-bottom: 40px;
 }
 .footer-right-section {
-  position: relative;
-  width: 333px;
-  height: 190px;
   flex-shrink: 0;
 }
 .footer-marketplace-section {
-  position: relative;
-  width: 113px;
-  height: 243px;
   flex-shrink: 0;
 }
 .footer-account-section {
-  width: 106px;
-  height: 159px;
   flex-shrink: 0;
 }
 .footer-subscribe-section {
-  width: 364px;
-  height: 197.793px;
   flex-shrink: 0;
 }
 .footer-right-section-header {
-  position: absolute;
   top: -1rem;
   color: #000;
   font-size: 24px;
   font-weight: 700;
 }
 .footer-right-section-subheader {
-  position: absolute;
   top: 25%;
   display: flex;
   width: 333px;
@@ -50,34 +37,25 @@
 }
 
 .footer-right-section-icon1 {
-  position: absolute;
   width: 36px;
   height: 36px;
-  flex-shrink: 0;
-  bottom: 0;
 }
 
 .footer-right-section-icon1:hover {
   cursor: pointer;
 }
 .footer-right-section-icon2 {
-  position: absolute;
   width: 36px;
   height: 36px;
-  flex-shrink: 0;
-  bottom: 0;
-  left: 50px;
+  margin-left: 16px;
 }
 .footer-right-section-icon2:hover {
   cursor: pointer;
 }
 .footer-right-section-icon3 {
-  position: absolute;
   width: 36px;
   height: 36px;
-  flex-shrink: 0;
-  bottom: 0;
-  left: 100px;
+  margin-left: 16px;
 }
 .footer-right-section-icon3:hover {
   cursor: pointer;
@@ -90,7 +68,6 @@
   text-transform: capitalize;
 }
 .footer-marketplace-items {
-  position: absolute;
   left: 0;
   color: #3d3d3d;
   font-size: 14px;
@@ -150,12 +127,12 @@
 }
 .footer-subscribe-wrapper {
   position: relative;
-  width: 364px;
+  width: 100%;
   height: 60.793px;
+  margin-top: 31px;
 }
 .footer-subscribe-input {
-  margin-top: 24px;
-  width: 364px;
+  width: 100%;
   height: 60.793px;
   flex-shrink: 0;
   border-radius: 100px;
@@ -169,17 +146,17 @@ input.footer-subscribe-input {
 
 .footer-subscribe-btn {
   position: absolute;
-  top: 55%;
+  top: 10px;
   right: 1%;
   border-radius: 45.595px;
   background: #2639ed;
   display: inline-flex;
-  padding: 15.198px 30.397px;
+  padding: 15px 25px;
   justify-content: center;
   align-items: center;
   gap: 7.599px;
   color: #fff;
-  font-size: 12.159px;
+  font-size: 12px;
   font-family: "DM Sans", sans-serif;
   letter-spacing: 0.79px;
 }
@@ -189,10 +166,12 @@ input.footer-subscribe-input {
 }
 @media only screen and (max-width: 600px) {
   .footer-subscribe-section {
+    width: 100%;
     margin-top: 0px;
     padding-bottom: 20px;
   }
   .footer-container {
+    width: 90vw;
     height: 800px;
     display: flex;
   }

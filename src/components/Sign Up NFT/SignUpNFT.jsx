@@ -50,7 +50,7 @@ export default function SignUpNFT() {
           </div>
         </div>
         <div class="signup-nft-child">
-          <div style={{ width: "300px" }}>
+          <div class="signup-nft-right-section-header-wrapper">
             <p
               class="signup-nft-right-section-header"
               style={{
@@ -70,7 +70,11 @@ export default function SignUpNFT() {
               risus faucibus.
             </p>
           </div>
-          <div data-aos="fade-up" style={{marginTop: "40px"}}>
+          <div
+            class="signup-nft-right-section-btn-wrapper"
+            data-aos="fade-up"
+            style={{ marginTop: "40px" }}
+          >
             <button class="signup-nft-right-section-btn">Sign Up Now</button>
           </div>
         </div>

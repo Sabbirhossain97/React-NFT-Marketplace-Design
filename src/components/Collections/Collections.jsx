@@ -10,9 +10,8 @@ export default function Collections() {
           <div class="collection-group1">
             <img
               src="assets/collections/collection-big-image.png"
-              width="400px"
-              height="424px"
               alt="error"
+              class="collection-group1-big-image"
             />
             <div class="collection-group1-bottom">
               <p class="collection-group1-bottom-text1">The Futr Abstr</p>

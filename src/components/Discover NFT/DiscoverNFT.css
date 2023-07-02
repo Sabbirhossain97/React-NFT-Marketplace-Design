@@ -12,23 +12,19 @@
 }
 .discover-nft-title {
   display: inline-flex;
-  width: 400px;
+  width: 92%;
   color: #000;
   font-size: 34px;
   font-weight: 700;
   margin-top: 64px;
-  margin-left: 9%;
+  margin: 64px auto;
 }
-@media only screen and (max-width: 600px) {
-  .discover-nft-title {
-    width: 350px;
-  }
-}
+
 .discover-nft-categories {
-  width: 82%;
+  width: 92%;
   height: auto;
   display: flex;
-  margin: 36px auto;
+  margin: auto;
   justify-content: space-between;
   position: relative;
 }
@@ -101,23 +97,20 @@
 }
 
 .discover-nft-contents-wrapper {
-  position: relative;
-  top: 15%;
-  left: 9%;
-  width: 100%;
+  margin: 50px auto;
+  top: 10%;
+  width: 92%;
   height: auto;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   flex: 1;
   row-gap: 40px;
   column-gap: 40px;
   padding-bottom: 20px;
 }
-@media only screen and (max-width: 600px) {
-  .discover-nft-contents-wrapper  {
-    margin: auto;
-  }
-}
+
 .discover-nft-contents-item {
   position: relative;
   width: 269.876px;
@@ -230,7 +223,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 55px;
+  margin-top: 15px;
   margin-bottom: 47px;
 }
 .btn {
@@ -251,4 +244,36 @@
   cursor: pointer;
   color: #fff;
   background: #5605f7;
+}
+@media only screen and (max-width: 600px) {
+  .discover-nft-container {
+    width: 90vw;
+  }
+  .discover-nft-title {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .discover-nft-contents-wrapper {
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .discover-nft-menu-items-active {
+    font-size: 10px;
+  }
+  .discover-nft-menu-items {
+    font-size: 10px;
+  }
+  .filter {
+    font-size: 10px;
+  }
+  .discover-nft-filter {
+    bottom: 0;
+  }
+  .filter-icon{
+    width: 14px;
+    height: 14px;
+  }
 }

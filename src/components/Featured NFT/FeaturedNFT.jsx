@@ -16,7 +16,11 @@ export default function FeaturedNFT() {
           style={{ fontFamily: "Integral CF, sans-serif" }}
           data-aos="fade-up"
         >
-          <p>COLLECTION FEATURED NFTS</p>
+          <p
+            class="featured-nft-title-text"
+          >
+            COLLECTION FEATURED NFTS
+          </p>
         </div>
         <div class="featured-nft-frame-wrapper">
           {[
@@ -41,40 +45,55 @@ export default function FeaturedNFT() {
               margin: "15px",
             },
           ].map((item, key) => (
-            <div class="featured-nft-frame-child">
-              <div
-                class="featured-nft-frame"
-                key={key}
-                style={{ marginLeft: item.margin }}
-              >
-                <img
-                  class="featured-nft-big-image"
-                  src={`assets/featured-nfts/${item.field1}.png`}
-                  alt="error"
-                />
-                <img
-                  class="featured-nft-small-image1"
-                  src={`assets/featured-nfts/${item.field2}.png`}
-                  alt="error"
-                />
-                <img
-                  class="featured-nft-small-image2"
-                  src={`assets/featured-nfts/${item.field3}.png`}
-                  alt="error"
-                />
-                <img
-                  class="featured-nft-small-image3"
-                  src={`assets/featured-nfts/${item.field4}.png`}
-                  alt="error"
-                />
-                <p class="featured-nft-bottom-header">Amazing Collection</p>
-                <img
-                  class="featured-nft-avatar"
-                  src="assets/featured-nfts/featured-nft-avatar.png"
-                  alt="error"
-                />
-                <p class="featured-nft-bottom-name">by Arkhan</p>
-                <p class="featured-nft-bottom-count">Total 54 Items</p>
+            <div
+              class="featured-nft-frame-child"
+              key={key}
+             
+            >
+              <div class="featured-nft-frame-child-wrapper">
+                <div class="item1 grid-items">
+                  <div>
+                    <img
+                      src={`assets/featured-nfts/${item.field1}.png`}
+                      alt="error"
+                      style={{ width: "100%", height: "100%" }}
+                    />
+                  </div>
+                </div>
+                <div class="item2 grid-items">
+                  <img
+                    src={`assets/featured-nfts/${item.field2}.png`}
+                    alt="error"
+                  />
+                </div>
+                <div class="item3 grid-items">
+                  <div>
+                    <img
+                      src={`assets/featured-nfts/${item.field3}.png`}
+                      alt="error"
+                      style={{ width: "100%", height: "100%" }}
+                    />
+                  </div>
+                </div>
+                <div class="item4 grid-items">
+                  <div>
+                    <img
+                      src={`assets/featured-nfts/${item.field4}.png`}
+                      alt="error"
+                      style={{ width: "100%", height: "100%" }}
+                    />
+                  </div>
+                </div>
+                <div class="item5 grid-items">
+                  <p class="featured-nft-bottom-header">Amazing Collection</p>
+                  <img
+                    class="featured-nft-avatar"
+                    src="assets/featured-nfts/featured-nft-avatar.png"
+                    alt="error"
+                  />
+                  <p class="featured-nft-bottom-name ">by Arkhan</p>
+                  <p class="featured-nft-bottom-count">Total 54 Items</p>
+                </div>
               </div>
             </div>
           ))}

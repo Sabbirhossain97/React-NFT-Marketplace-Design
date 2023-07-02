@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   transition: all 0.2 linear;
 }
+
 .hero-child {
   height: 440px;
   flex: 1 1 200px;
@@ -64,20 +65,16 @@
 }
 .hero-left-section-bottom {
   display: flex;
-  width: 100%;
-  margin-top: 25px;
-  height: 75px;
+  position: "relative";
 }
-.hero-left-section-bottom-container:nth-child(1) {
-  margin-left: 0px;
+.hero-left-section-bottom-container:nth-child(2) {
+  margin-left: 23px;
+}
+.hero-left-section-bottom-container:last-child {
+  margin-left: 23px;
 }
 .hero-left-section-bottom-container {
-  height: 75px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 23px;
-  position: relative;
+  display: "flex";
 }
 .hero-left-section-bottom-header {
   color: #000;
@@ -91,9 +88,9 @@
   font-size: 20px;
   font-family: "DM Sans", sans-serif;
   line-height: 160%;
+  font-style: normal;
+  font-weight: 400;
   position: absolute;
-  top: 43px;
-  left: 1px;
 }
 
 .dot {
@@ -111,6 +108,14 @@
 }
 .hero-image-1-container {
   position: relative;
+  height: 100%;
+  z-index: 5;
+}
+
+.hero-image-1 {
+  z-index: 2;
+  border-radius: 24px;
+  width: 100%;
   height: 100%;
 }
 
@@ -143,7 +148,7 @@
   bottom: 24px;
   left: 25px;
   right: 0;
-  width: 348px;
+  width: 88%;
   height: 73.846px;
   border-radius: 12px;
   backdrop-filter: blur(25px);
@@ -192,15 +197,7 @@
   left: 25px;
   z-index: 4;
 }
-.hero-image-1 {
-  position: absolute;
-  z-index: 2;
-  border-radius: 24px;
-  width: 400px;
-  height: 440px;
-  top: 0;
-  left: 0;
-}
+
 .hero-image-1-header {
   position: absolute;
   width: 237px;
@@ -252,6 +249,47 @@
 @media only screen and (max-width: 600px) {
   .hero-container {
     width: 90vw;
+    margin: auto;
+  }
+  .hero-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+  .hero-subheading {
+    font-size: 15px;
+    text-align: center;
+  }
+  .hero-btn-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-btn-text {
+    font-size: 10px;
+    padding: 15px 25px;
+  }
+  .hero-left-section-bottom {
+    justify-content: center;
+  }
+  .hero-left-section-bottom-header {
+    font-size: 30px;
+  }
+  .hero-left-section-bottom-subheader {
+    font-size: 15px;
+    justify-content: center;
+  }
+  .hero-image-1-logo {
+    visibility: hidden;
+  }
+  .hero-image-2 {
+    visibility: hidden;
+  }
+  .hero-image-3 {
+    visibility: hidden;
+  }
+  .dot {
+    bottom: 15%;
+    left: 5%;
   }
 }
 @media only screen and (min-width: 1725px) {

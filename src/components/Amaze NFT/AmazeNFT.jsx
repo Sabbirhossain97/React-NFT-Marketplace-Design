@@ -15,7 +15,7 @@ export default function AmazeNFT() {
           </p>
         </div>
         <div class="amazenft-child">
-          <div class="amaze-nft-group2-text">
+          <div class="amaze-nft-group2-wrapper">
             <img
               src="assets/amaze-nft/card-tick.png"
               class="amaze-nft-icon"
@@ -29,7 +29,7 @@ export default function AmazeNFT() {
           </div>
         </div>
         <div class="amazenft-child">
-          <div class="amaze-nft-group2-text">
+          <div class="amaze-nft-group2-wrapper">
             <p class="amaze-nft-group2-header">Growth Transaction</p>
             <p class="amaze-nft-group2-subheader">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
